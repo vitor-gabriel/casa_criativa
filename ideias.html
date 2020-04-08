@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ideias - Casa Criativa</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="page-ideas">
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <img src="./logo.png" alt="Imagem da logomarca">
+            </a>
+            <nav>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="button" href="#"onclick="onOff()">Nova Ideia</a></li>
+        </nav>
+        </header>
+        <section id="title">
+            <p>Em exibição</p>
+            <h1>Ideias</h1>
+        </section>
+        <main>
+            <section id="ideas">
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/svg/1803/1803671.svg" 
+                        alt="Imagem de curso de programação">
+                    <div class="content">
+                        <h3>Cursos de programação</h3>
+                        <p>Estudo</p>
+                    <div class="description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit assumenda ut amet eaque, aspernatur, esse impedit necessitatibus neque harum illum iusto ab nulla error tenetur magni repellat cumque perspiciatis! Sunt!
+                    </div>
+                    <a href="#">Ir para ideia</a>
+                </div>
+                </div>
+
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/svg/2780/2780096.svg" 
+                        alt="Exercicios">
+                    
+                <div class="content">
+                    <h3>Exercicios em casa</h3>
+                    <p>Saúde</p>
+                    <div class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit assumenda ut amet eaque, aspernatur, esse impedit necessitatibus neque harum illum iusto ab nulla error tenetur magni repellat cumque perspiciatis! Sunt!
+                    </div>
+                    <a href="#">Ir para ideia</a>
+                </div>
+                </div>
+
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/svg/1830/1830796.svg" 
+                        alt="Meditação">
+                    
+                    <div class="content">
+                    <h3>Meditação</h3>
+                    <p>Saúde</p>
+                    <div class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit assumenda ut amet eaque, aspernatur, esse impedit necessitatibus neque harum illum iusto ab nulla error tenetur magni repellat cumque perspiciatis! Sunt!
+                    </div>
+                    <a href="#">Ir para ideia</a>
+                </div>
+                </div>
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/svg/651/651758.svg" 
+                        alt="Musica">
+                    <div class="content">
+                        <h3>Musica</h3>
+                        <p>Musica</p>
+                    <div class="description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit assumenda ut amet eaque, aspernatur, esse impedit necessitatibus neque harum illum iusto ab nulla error tenetur magni repellat cumque perspiciatis! Sunt!
+                    </div>
+                    <a href="#">Ir para ideia</a>
+                </div>    
+                </div>
+            </section>
+        </main>
+        <footer>
+            Com <img src="https://image.flaticon.com/icons/svg/1216/1216649.svg" alt="coração"><a href="https://www.linkedin.com/in/vitor-gabriel-rodrigues-rosa-56a1301a5/" target="_blank"> Vitor Gabriel</a>
+        </footer>
+</div>
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova ideia</h1>
+    
+            <form action="">
+    
+                <div class="input-wrapper">
+                    <label for="title">Titulo da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+    
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+    
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="text" name="image">
+                </div>
+    
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição:</label>
+                    <textarea type="text" name="description" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="text" name="link">
+                </div>
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+            </form>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
